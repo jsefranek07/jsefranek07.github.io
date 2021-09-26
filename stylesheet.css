@@ -1,23 +1,64 @@
 @charset "UTF-8";
 
-.top-navbar {
-	overflow: hidden;
-	background: #333;
+/* Navigation bar links and lists */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.top-navbar a {
-	font-family: 'Noto Sans JP', sans-serif;
-	font-family: 'Stick No Bills', sans-serif;
-	list-style-type: none;
-	float: left;
-  	display: block;
-  	color: #f2f2f2;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
+li a:hover {
+    background-color: #111;
 }
 
-.top-navbar a:hover {
-	background-color: #ddd;
-	color: black;
+/* Flexbox stuff, used for organization mainly */
+.flexbox-container {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-border-test {
+    width: 200px;
+    margin: 10px;
+    border: 5px solid #333;
+    background-color: #a5a5a5;
+}
+
+.flexbox-item-1 {
+    min-height: 300px;
+    flex-grow: 1;
+}
+
+.flexbox-item-2 {
+    min-height: 300px;
+    flex-grow: 1;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+    flex-grow: 1;
+}
+
+/* Other stuff not labeled yet */
+
+#otherDiv {
+    font: stick;
 }
