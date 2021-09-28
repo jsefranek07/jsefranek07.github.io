@@ -6,7 +6,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 50%);
+    background-color: rgba(211, 211, 211, 0.7);
 }
   
 li {
@@ -16,8 +16,7 @@ li {
 li a {
     display: block;
     color: white;
-    padding-top: 35%;
-    padding-left: 20%;
+    
     text-align: center;
     text-decoration: none;
 }
@@ -48,9 +47,24 @@ li a:hover {
     border: 5px solid #333;
     background-color: #a5a5a5;
 }
+.flexbox-gallery-home-borderless {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .flexbox-gallery-home-item-1 {
     min-height: 20%;
+    flex-grow: 1;
+}
+
+.flexbox-gallery-home-item-2 {
+    min-height: 20%;
+    flex-grow: 2;
+}
+
+.flexbox-gallery-home-item-3 {
+    min-height: 10%;
     flex-grow: 1;
 }
 
@@ -91,5 +105,5 @@ div.overlay {
 }
 
 #column-headings-home {
-    content: center;
+    text-align: center;
 }
