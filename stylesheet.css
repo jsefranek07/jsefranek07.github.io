@@ -6,7 +6,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 50%);
 }
   
 li {
@@ -16,17 +16,18 @@ li {
 li a {
     display: block;
     color: white;
+    padding-top: 35%;
+    padding-left: 20%;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    color: rgba(0, 0, 0, 100%);
 }
 
 /* Flexbox stuff, used for organization mainly */
-.flexbox-container {
+.flexbox-gallery-home {
     height: 10%;
     display: flex;
     flex-wrap: wrap;
@@ -43,24 +44,30 @@ li a:hover {
 }
 
 .flexbox-item-1 {
-    min-height: 300px;
+    min-height: 20%;
     flex-grow: 1;
 }
 
 .flexbox-item-2 {
-    min-height: 300px;
+    min-height: 20%;
     flex-grow: 1;
 }
 
 .flexbox-item-3 {
-    min-height: 300px;
+    min-height: 20%;
     flex-grow: 1;
 }
 
 /* Other stuff not labeled yet */
 
-#otherDiv {
-    position: fixed;
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
     z-index: 2;
+    top: 0;
     height: 30%;
+}
+
+#navbar-name {
+    padding-left: 10px;
 }
