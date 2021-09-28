@@ -30,6 +30,7 @@ li a:hover {
 .page_Size {
     margin-left: 5%;
     margin-right: 5%;
+    border: 10px groove #333;
 }
 
 .flexbox-navbar-home {
@@ -37,17 +38,13 @@ li a:hover {
     margin-right: 20%;
 }
 .flexbox-gallery-home {
-    height: 10%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+    justify-content: space-between;
 }
 
 .flexbox-gallery-home-borders {
     width: 10%;
-    margin: 10px;
     border: 5px solid #333;
     background-color: #a5a5a5;
 }
@@ -67,6 +64,23 @@ div.sticky {
     height: 30%;
 }
 
+div.overlay {
+    position: absolute;
+    background-color: white;
+    transition: 0.5s ease;
+}
+
+/* Events like hover, simple animations, etc... */
+
+.flexbox-gallery-home-item:hover .overlay{
+    opacity: 0.3;
+}
+
+/* Id's and specific types of style changes */
+
+#background-home {
+    background-color: aqua;
+}
 #navbar-name {
     padding-left: 10px;
 }
@@ -74,4 +88,8 @@ div.sticky {
 #home-video {
     width: 100%;
     height: 50%;
+}
+
+#column-headings-home {
+    content: center;
 }
