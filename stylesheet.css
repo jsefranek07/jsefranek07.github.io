@@ -27,6 +27,15 @@ li a:hover {
 }
 
 /* Flexbox stuff, used for organization mainly */
+.page_Size {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.flexbox-navbar-home {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 .flexbox-gallery-home {
     height: 10%;
     display: flex;
@@ -36,29 +45,19 @@ li a:hover {
     align-content: center;
 }
 
-.flex-border-test {
+.flexbox-gallery-home-borders {
     width: 10%;
     margin: 10px;
     border: 5px solid #333;
     background-color: #a5a5a5;
 }
 
-.flexbox-item-1 {
+.flexbox-gallery-home-item-1 {
     min-height: 20%;
     flex-grow: 1;
 }
 
-.flexbox-item-2 {
-    min-height: 20%;
-    flex-grow: 1;
-}
-
-.flexbox-item-3 {
-    min-height: 20%;
-    flex-grow: 1;
-}
-
-/* Other stuff not labeled yet */
+/* Div 'sticky' class for any divs needing to stay onscreen*/
 
 div.sticky {
     position: -webkit-sticky;
@@ -70,4 +69,9 @@ div.sticky {
 
 #navbar-name {
     padding-left: 10px;
+}
+
+#home-video {
+    width: 100%;
+    height: 50%;
 }
