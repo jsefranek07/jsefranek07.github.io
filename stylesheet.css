@@ -1,110 +1,51 @@
 @charset "UTF-8";
 
-/* Navigation bar links and lists */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(211, 211, 211, 0.7);
-}
-  
-li {
-    float: left;
-}
-  
-li a {
-    display: block;
-    color: white;
-    
-    text-align: center;
-    text-decoration: none;
-}
+/* Flexboxes (Main) */
 
-li a:hover {
-    color: rgba(0, 0, 0, 100%);
-}
-
-/* Flexbox stuff, used for organization mainly */
-.page_Size {
-    margin-left: 5%;
-    margin-right: 5%;
-    border: 10px groove #333;
-}
-
-.flexbox-navbar-home {
-    margin-left: -6.5%;
-    margin-right: -6.2%;
-    margin-top: -6.5%;
-}
-.flexbox-gallery-home {
+.page-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    min-width: 10%;
 }
 
-.flexbox-gallery-home-borders {
-    width: 10%;
-    border: 5px solid #333;
-    background-color: #a5a5a5;
+.left-page-container {
+    flex-grow: 1;
+    background: green;
 }
-.flexbox-gallery-home-borderless {
+
+.middle-page-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 4;
+    background: yellowgreen;
 }
 
-.flexbox-gallery-home-item-1 {
-    min-height: 20%;
+.right-page-container {
     flex-grow: 1;
+    background: yellow;
 }
 
-.flexbox-gallery-home-item-2 {
-    min-height: 20%;
-    flex-grow: 2;
-}
+/* Middle Page Flexboxes and Containers */
 
-.flexbox-gallery-home-item-3 {
-    min-height: 10%;
-    flex-grow: 1;
-}
 
-/* Div 'sticky' class for any divs needing to stay onscreen*/
 
-div.sticky {
+/* Sticky Classes */
+
+table.sticky {
     position: -webkit-sticky;
     position: sticky;
     z-index: 2;
-    top: 0;
-    height: 30%;
 }
 
-div.overlay {
-    position: absolute;
-    background-color: white;
-    transition: 0.5s ease;
+/* Animations, etc... */
+
+th a:hover {
+    background: red;
 }
 
-/* Events like hover, simple animations, etc... */
+/* ID's */
 
-.flexbox-gallery-home-item:hover .overlay{
-    opacity: 0.3;
-}
-
-/* Id's and specific types of style changes */
-
-#background-home {
-    background-color: aqua;
-}
-#navbar-name {
-    padding-left: 10px;
-}
-
-#home-video {
-    width: 100%;
-    height: 50%;
-}
-
-#column-headings-home {
+#top_banner {
     text-align: center;
 }
