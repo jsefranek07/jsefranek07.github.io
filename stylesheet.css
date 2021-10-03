@@ -49,3 +49,21 @@ th a:hover {
 #top_banner {
     text-align: center;
 }
+
+/* Anchor Link ID's */
+
+#home {
+    background: red;
+}
+
+#about {
+    background: cyan;
+}
+
+#contact {
+    background: brown;
+}
+
+#gallery {
+    background: purple;
+}
