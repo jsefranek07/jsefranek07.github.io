@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     flex-grow: 4;
+    max-width: 80%;
 }
 
 .right-page-container {
@@ -38,13 +39,25 @@
 
 .about-section-1 {
     min-height: 20%;
-    flex-grow: 0;
-    font-size: 20px;
+    max-width: 45%;
+    flex-grow: 1;
+    font-size: 24px;
 }
 
 .about-section-2 {
     min-height: 20%;
+    max-width: 45%;
     flex-grow: 1;
+}
+
+.about-section-2-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 1%;
 }
 
 /* Gallery Section Flexboxes and Containers */
@@ -81,18 +94,18 @@ th:hover {
 /* Anchor Link ID's */
 
 #home {
-    background: rgba(21, 20, 31, 0.5);
+    background: rgba(21, 20, 31, 0.6);
 }
 
 #about {
-    background: rgba(21, 20, 31, 0.5);
+    background: rgba(21, 20, 31, 0.6);
     font-family: 'Caveat', cursive;
 }
 
 #contact {
-    background: rgba(21, 20, 31, 0.5);
+    background: rgba(21, 20, 31, 0.6);
 }
 
 #gallery {
-    background: rgba(21, 20, 31, 0.5);
+    background: rgba(21, 20, 31, 0.6);
 }
