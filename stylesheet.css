@@ -35,6 +35,7 @@
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    align-items: center;
 }
 
 .about-section-1 {
@@ -56,7 +57,6 @@
     flex-direction: row;
     justify-content: space-around;
     justify-content: space-evenly;
-    align-items: flex-start;
     margin-top: 1%;
 }
 
@@ -75,6 +75,7 @@
     max-width: 20%;
     flex-grow: 1;
     font-size: 24px;
+    margin: 3%
 }
 
 
