@@ -6,11 +6,12 @@
     display: flex;
     flex-wrap: wrap;
     min-width: 10%;
+    background-image: url("Images_n_Stuff/wallpaper_1.jpg");
+    color: rgb(125, 141, 146);
 }
 
 .left-page-container {
     flex-grow: 1;
-    background: green;
 }
 
 .middle-page-container {
@@ -18,52 +19,80 @@
     flex-wrap: wrap;
     flex-direction: column;
     flex-grow: 4;
-    background: yellowgreen;
 }
 
 .right-page-container {
     flex-grow: 1;
-    background: yellow;
 }
 
 /* Middle Page Flexboxes and Containers */
 
+/* About Section Flexboxes and Containers */
+.about-flexbox-conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
 
+.about-section-1 {
+    min-height: 20%;
+    flex-grow: 0;
+    font-size: 20px;
+}
+
+.about-section-2 {
+    min-height: 20%;
+    flex-grow: 1;
+}
+
+/* Gallery Section Flexboxes and Containers */
+
+/* Contact Section Flexboxes and Containers */
 
 /* Sticky Classes */
 
-table.sticky {
+.sticky {
     position: -webkit-sticky;
     position: sticky;
     z-index: 2;
+    top: 0;
 }
 
 /* Animations, etc... */
 
-th a:hover {
-    background: red;
+th:hover {
+    opacity: 60%;
 }
 
 /* ID's */
 
 #top_banner {
     text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+#navbar_borders {
+    background-color: rgb(198, 129, 216);
+    border: 4px solid rgb(144, 213, 240);
 }
 
 /* Anchor Link ID's */
 
 #home {
-    background: red;
+    background: rgba(21, 20, 31, 0.5);
 }
 
 #about {
-    background: cyan;
+    background: rgba(21, 20, 31, 0.5);
+    font-family: 'Caveat', cursive;
 }
 
 #contact {
-    background: brown;
+    background: rgba(21, 20, 31, 0.5);
 }
 
 #gallery {
-    background: purple;
+    background: rgba(21, 20, 31, 0.5);
 }
