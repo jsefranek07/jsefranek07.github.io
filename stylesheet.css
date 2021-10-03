@@ -62,7 +62,36 @@
 
 /* Gallery Section Flexboxes and Containers */
 
+.gallery-flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+.gallery-section-1 {
+    min-height: 20%;
+    max-width: 20%;
+    flex-grow: 1;
+    font-size: 24px;
+}
+
+
+
 /* Contact Section Flexboxes and Containers */
+
+.contact-flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.contact-section-1 {
+    
+}
 
 /* Sticky Classes */
 
