@@ -86,13 +86,12 @@
 .contact-flexbox-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-around;
     justify-content: space-evenly;
 }
 
 .contact-section-1 {
-    
+    flex-grow: 1;
 }
 
 /* Sticky Classes */
