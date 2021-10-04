@@ -69,10 +69,10 @@
     flex-direction: row;
     justify-content: space-evenly;
     justify-content: space-around;
-    position: absolute;
 }
 
 .gallery-section-1 {
+    position: absolute;
     max-height: 20%;
     max-width: 20%;
     flex-grow: 1;
