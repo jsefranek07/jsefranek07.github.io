@@ -58,6 +58,7 @@
     flex-direction: row;
     justify-content: space-around;
     justify-content: space-evenly;
+    position: absolute;
 }
 
 /* Gallery Section Flexboxes and Containers */
@@ -68,6 +69,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     justify-content: space-around;
+    position: absolute;
 }
 
 .gallery-section-1 {
