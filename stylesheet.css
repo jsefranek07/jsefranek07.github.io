@@ -72,7 +72,7 @@
 }
 
 .gallery-section-1 {
-    min-height: 20%;
+    max-height: 20%;
     max-width: 20%;
     flex-grow: 1;
     font-size: 24px;
