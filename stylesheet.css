@@ -12,6 +12,7 @@
 
 .left-page-container {
     flex-grow: 1;
+    max-width: 10%;
 }
 
 .middle-page-container {
@@ -24,6 +25,7 @@
 
 .right-page-container {
     flex-grow: 1;
+    max-width: 10%;
 }
 
 /* Middle Page Flexboxes and Containers */
@@ -57,7 +59,6 @@
     flex-direction: row;
     justify-content: space-around;
     justify-content: space-evenly;
-    margin-top: 1%;
 }
 
 /* Gallery Section Flexboxes and Containers */
@@ -123,9 +124,11 @@ th:hover {
 
 /* Anchor Link ID's */
 
+
 #home {
     background: rgba(21, 20, 31, 0.6);
 }
+
 
 #about {
     background: rgba(21, 20, 31, 0.6);
