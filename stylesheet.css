@@ -126,12 +126,12 @@ th:hover {
 
 
 #home {
-    background: rgba(30, 173, 37, 0.6);
+    /*background: rgba(30, 173, 37, 0.6);*/
 }
 
 
 #about {
-    background: rgba(33, 158, 56, 0.6);
+    /*background: rgba(33, 158, 56, 0.6);*/
     font-family: 'Caveat', cursive;
 }
 
